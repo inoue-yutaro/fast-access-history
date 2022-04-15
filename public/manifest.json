@@ -2,6 +2,12 @@
   "manifest_version": 3,
   "name": "fast-access-history",
   "version": "0.0.1",
+  "permissions": [
+    "history"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
   "content_scripts": [
     {
       "matches": ["<all_urls>"],
