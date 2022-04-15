@@ -1,0 +1,11 @@
+.fah-body {
+  overflow: hidden;
+}
+
+.fah-modal-area {
+  position: fixed;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 2147483647;
+}
