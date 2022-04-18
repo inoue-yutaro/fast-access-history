@@ -13,7 +13,6 @@ const StInput = styled.input`
   background-color: white;
   border: unset;
   box-sizing: border-box;
-  border-radius: 5px;
   outline: none;
   padding: 4px 8px;
   height: 48px;
